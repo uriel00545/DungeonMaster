@@ -9,24 +9,27 @@
             prefWidth="900.0"
             xmlns="http://javafx.com/javafx/23.0.1"
             xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="com.mycompany.teste.controller.AreaController">
+            fx:controller="com.mycompany.DungeonMaster.controller.AreaController">
 
     <!-- MENU LATERAL -->
     <left>
         <VBox spacing="10"
-              prefWidth="200"
-              style="-fx-padding: 15; -fx-background-color: #2b2b2b;">
+      prefWidth="200"
+      style="-fx-padding: 15; -fx-background-color: #2b2b2b;">
 
-            <Button text="Fogueira"
-                    onAction="#tfogueira"/>
+    <Button text="Fogueira"
+            onAction="#tfogueira"/>
 
-            <Button text="Inventário"
-                    onAction="#tinv"/>
+    <Button text="Inventário"
+            onAction="#tinv"/>
 
-            <Button text="Descanso"
-                    onAction="#tDescanso"/>
+    <Button text="Descanso"
+            onAction="#tDescanso"/>
 
-        </VBox>
+    <Button text="Loja"
+            onAction="#tLoja"/>
+
+</VBox>
     </left>
 
     <!-- ÁREA QUE TROCA O CONTEÚDO -->

@@ -8,9 +8,12 @@ public class MenuController {
 
     @FXML
     private void jogar() throws IOException {
-        Navegar.ir("area.fxml");
+         Navegar.ir("area");
     }
     
-    
+     @FXML
+    private void fecharJogo() throws IOException {
+        System.exit(0);
+    }
 
 }
