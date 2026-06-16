@@ -9,6 +9,6 @@ public class FogController {
     
     @FXML
     private void voltar() throws IOException {
-    Navegar.ir("area.fxml");
+    Navegar.ir("area");
     }
 }

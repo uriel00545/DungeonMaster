@@ -6,12 +6,12 @@
 <?import javafx.geometry.Insets?>
 
 <VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" 
-      fx:controller="com.mycompany.teste.controller.ShopController">
+      fx:controller="com.mycompany.DungeonMaster.controller.InvController">
     
    <children>
       
       <Label text="LOJA" />
-      <Button fx:id="voltar" text="Sair" onAction="#sair"/>
+      <Button fx:id="fechar" text="Sair" onAction="#fechar"/>
      
       
    </children>

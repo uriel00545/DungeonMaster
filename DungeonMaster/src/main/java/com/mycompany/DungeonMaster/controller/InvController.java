@@ -8,7 +8,7 @@ public class InvController {
     
     
     @FXML
-    private void voltar() throws IOException {
-    Navegar.ir("area.fxml");
+    private void fechar() throws IOException {
+    Navegar.ir("area");
     }
 }
