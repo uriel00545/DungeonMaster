@@ -1,64 +1,17 @@
-
 package com.mycompany.DungeonMaster.model;
 
 
-public class Player {
-    private int hp;
-    private int dmgbase;
-    private int def;
-    private double crit;
-    private double critrate;
-    
-    
-    private void dmgcrit (){
-        
-    } 
+import com.mycompany.DungeonMaster.model.Personagem;
 
-    public Player(int hp, int dmgbase, int def, double crit) {
-        this.hp = hp;
-        this.dmgbase = dmgbase;
-        this.def = def;
-        this.crit = crit;
-    }
-    
-    public Player() {}
+public class Player extends Personagem {
 
-    
-    //<editor-fold defaultstate="collapsed" desc="get e set">
-    public int getHp() {
-        return hp;
-    }
-    
-    public void setHp(int hp) {
-        this.hp = hp;
-    }
-    
-    public int getDmgbase() {
-        return dmgbase;
-    }
-    
-    public void setDmgbase(int dmgbase) {
-        this.dmgbase = dmgbase;
-    }
-    
-    public int getDef() {
-        return def;
-    }
-    
-    public void setDef(int def) {
-        this.def = def;
-    }
-    
-    public double getCrit() {
-        return crit;
-    }
-    
-    public void setCrit(double crit) {
-        this.crit = crit;
-        
+    private int id;
+    private double critRate;
 
-}//</editor-fold>
+    public Player(int id, int hp, int defesa, double critRate) {
+        super(hp, defesa);
 
-    
-    
+        this.id = id;
+        this.critRate = critRate;
+    }
 }
